@@ -1,0 +1,59 @@
+.cont {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  height: 600px;
+  width: 600px;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.game {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.hole {
+  width: 100px;
+  height: 100px;
+  background-color: #444;
+  border-radius: 10px;
+  position: relative;
+}
+
+/*
+.mole {
+    width: 80px;
+    height: 80px;
+    background-color: brown;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+*/
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
